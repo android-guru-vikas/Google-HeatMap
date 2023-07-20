@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <!-- Center Point (Bihar) -->
+    <Placemark>
+      <name>Bihar Farming Area</name>
+      <Point>
+        <coordinates>85.3131, 25.0961,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Red Area (Inner) -->
+    <Placemark>
+      <name>Red Area (Inner)</name>
+      <Style>
+        <PolyStyle>
+          <color>7dff0000</color> <!-- Alpha, Blue, Green, Red -->
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              84.7,25.6,0
+              84.7,24.7,0
+              86.2,24.7,0
+              86.2,25.6,0
+              84.7,25.6,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Green Area (Middle) -->
+    <Placemark>
+      <name>Green Area (Middle)</name>
+      <Style>
+        <PolyStyle>
+          <color>7d00ff00</color> <!-- Alpha, Blue, Green, Red -->
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              84.3,26.0,0
+              84.3,25.3,0
+              86.6,25.3,0
+              86.6,26.0,0
+              84.3,26.0,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Yellow Area (Outer) -->
+    <Placemark>
+      <name>Yellow Area (Outer)</name>
+      <Style>
+        <PolyStyle>
+          <color>7dffff00</color> <!-- Alpha, Blue, Green, Red -->
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              83.9,26.4,0
+              83.9,25.6,0
+              87.0,25.6,0
+              87.0,26.4,0
+              83.9,26.4,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DemoHeatMap</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="kml_url">https://raw.githubusercontent.com/googlemaps/android-maps-utils/70a77b066b8391da06a2d708792de8337bf5d3b6/demo/src/main/res/raw/campus.kml</string>
+</resources>

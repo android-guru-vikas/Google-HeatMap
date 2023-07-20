@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <!-- Plain Rectangle - Blue -->
+    <Placemark>
+      <Style>
+        <PolyStyle>
+          <color>7dff0000</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.180478,28.611922,2
+              77.186081,28.611922,2
+              77.186081,28.617229,2
+              77.180478,28.617229,2
+              77.180478,28.611922,2
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Red Rectangle -->
+    <Placemark>
+      <Style>
+        <PolyStyle>
+          <color>7d00ff00</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.181107,28.613104,4
+              77.185452,28.613104,4
+              77.185452,28.616046,4
+              77.181107,28.616046,4
+              77.181107,28.613104,4
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Yellow Rectangle -->
+    <Placemark>
+      <Style>
+        <PolyStyle>
+          <color>7d0000ff</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.181307,28.613284,6
+              77.184989,28.613284,6
+              77.184989,28.615866,6
+              77.181307,28.615866,6
+              77.181307,28.613284,6
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Green Rectangle -->
+    <Placemark>
+      <Style>
+        <PolyStyle>
+          <color>7d00ffff</color>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.181478,28.613464,8
+              77.184799,28.613464,8
+              77.184799,28.615686,8
+              77.181478,28.615686,8
+              77.181478,28.613464,8
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
